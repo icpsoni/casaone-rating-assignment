@@ -6,7 +6,7 @@ function ProductRatingData(reviewsData, productData) {
       ratingLevels:reviewsData[0].ratingLevels,
       totalReviews: productData.rating.totalReviews,
       totalRatings: productData.rating.totalRatings,
-      avgRating: productData.rating.avg,
+      avgRating: productData.rating.avg.toFixed(1),
     }
   }
 }
