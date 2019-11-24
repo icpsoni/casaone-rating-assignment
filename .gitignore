@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+#environment variables
+.env
+
+.idea/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+.env*
+
